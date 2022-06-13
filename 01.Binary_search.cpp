@@ -1,13 +1,14 @@
 #include<bits/stdc++.h>
 using namespace std;
-#define f(a) for (int i = 0; i <a;i++) 
 
 int main(){
     int a,k;
     cin >> a>>k;
     int b[a];
-    f(a)
-    cin >> b[i];
+    for(int i=0; i<a; i++){
+       cin >> b[i];
+    }
+   
 
     int st=0;
     int end=a-1;
